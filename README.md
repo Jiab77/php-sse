@@ -23,6 +23,9 @@ You can see the result for this run, when I'm exporting a database using `pg_dum
 
 ![demo](https://user-images.githubusercontent.com/9881407/60141151-7b4c0d80-97b4-11e9-8fb4-0722333c8773.gif)
 
+# Inspiration
+I took the idea from this website: http://qnimate.com/implementing-push-technology-in-web-sites/.
+
 # Contribute
 Feel free to contribute to this project by openning issues and pull requests.
 
