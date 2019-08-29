@@ -8,7 +8,7 @@ var run = '';
 var index = 0;
 var index_max = 1000;
 var pid, old_pid;
-var directory = 'php-sse-alpha';
+var directory = 'php-sse';
 if (sseJSON === true) {
 	var sse = new EventSource(directory + "/run.sse.json.php");
 }
