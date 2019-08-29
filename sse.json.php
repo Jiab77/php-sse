@@ -13,7 +13,7 @@ if (isset($cmd_line) && !empty($cmd_line)) {
 
 	// Write command line to temp files
 	file_put_contents($dir . '/run_cmd', $cmd_line);
-	if (isset($_POST['db_pass']) && !empty($_POST['db_pass'])) {
+	if (isset($_POST['db_pass']) && !empty($_POST['db_pass']) && $_POST['db_engine'] === 'postgresql') {
 		file_put_contents($dir . '/run_var', json_encode(['PGPASSWORD' => $_POST['db_pass']]));
 	}
 	else {
